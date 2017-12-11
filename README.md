@@ -8,3 +8,15 @@ svn update utils
 
 svn update -N papers
 
+cd papers 
+
+git clone https://github.com/ginnocen/BsPaperDraft.git
+
+cd BsPaperDraft/trunk
+
+source test.sh
+
+
+
+
+
