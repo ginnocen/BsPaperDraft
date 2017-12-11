@@ -1,0 +1,62 @@
+\RCS$Revision: 423381 $
+\RCS$HeadURL: svn+ssh://svn.cern.ch/reps/tdr2/papers/HIN-16-011/trunk/HIN-16-011.tex $
+\RCS$Id: HIN-16-011.tex 423381 2017-09-01 14:20:05Z alverson $
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.98\columnwidth}}{\setlength\cmsFigWidth{0.69\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+\newcommand{\sqrts}{ \ensuremath{\sqrt{s}}\xspace}
+\newcommand{\sqrtsNN}{ \ensuremath{\sqrt{\smash[b]{s_{_{\mathrm{NN}}}}}}\xspace}
+\newcommand{\Bplusminusdecay}{\ensuremath{\PBpm\to\PJGy~\PKpm\to\Pgmp\Pgmm\PKpm}\xspace}
+\newcommand{\Bjpsixdecay}{\ensuremath{\PB\to\PJGy~\cmsSymbolFace{X}}\xspace}
+\newcommand{\RAA}{\ensuremath{R_{\mathrm{AA}}}\xspace}
+\newcommand{\TAA}{\ensuremath{T_{\mathrm{AA}}}\xspace}
+\newcommand{\pPb}{\ensuremath{\Pp\mathrm{Pb}}\xspace}
+\newcommand{\PbPb}{\ensuremath{\mathrm{PbPb}}\xspace}
+\newcommand{\Pb}{\ensuremath{\mathrm{Pb}}\xspace}
+\newcommand{\pp}{\Pp\Pp\xspace}
+\newcommand{\Bsp}{ \ensuremath{\rm B_{\rm s }^{+}}\xspace}
+\newcommand{\Bspm}{ \ensuremath{\rm B_{\rm s }^{\pm}}\xspace}
+
+\providecommand{\mbinv} {\mbox{\ensuremath{\,\text{mb}^\text{$-$1}}}\xspace}
+\providecommand{\HYDJET}{\textsc{hydjet}\xspace}
+
+\cmsNoteHeader{HIN-16-011}
+
+\title{\texorpdfstring{Measurement of the $\Bsp$ meson nuclear modification factor in \PbPb collisions at $\sqrtsNN=5.02\TeV$}{Measurement of Bs+/- mesons nuclear modification factor in PbPb collisions at sqrt(s[NN]) = 5.02 TeV}}
+
+\address[cern]{CERN}
+\author[cern]{The CMS Collaboration}
+
+\date{\today}
+
+\abstract{
+%The differential production cross sections of $\PBpm$ mesons are measured via the exclusive decay channels \Bplusminusdecay as a function of transverse momentum in \pp and \PbPb collisions at a center-of-mass energy $\sqrtsNN=5.02\TeV$ per nucleon pair with the CMS detector at the LHC.
+%The \pp (\PbPb) dataset used for this analysis corresponds to an integrated luminosity of 28.0\pbinv (351\mubinv).
+%The measurement is performed in the $\PBpm$ meson transverse momentum range of 7 to 50\GeVc, in the rapidity interval $\abs{y}<2.4$. In this kinematic range, a strong suppression of the production cross section by about a factor of two is observed in the \PbPb system in comparison to the expectation from \pp reference data. These results are found to be roughly compatible with theoretical calculations incorporating beauty quark diffusion and energy loss in a quark-gluon plasma.
+}
+
+\hypersetup{%
+pdfauthor={Ta-Wei Wang, Andrew Turner, Jing Wang, Dozen Candan, Kisoo Lee, Gian Michele Innocenti, Hyunchul Kim, Camelia Mironov, Yen-Jie Lee},%
+pdftitle={Measurement of B+/- meson differential production cross sections in pp and PbPb collisions at sqrt(s[NN]) = 5.02 TeV},%
+pdfsubject={CMS},%
+pdfkeywords={physics, dimuons, proton Lead, charmonia, suppression, quark gluon plasma, shadowing, B meson, open heavy-flavor}}
+
+\maketitle
+Relativistic heavy ion collisions allow the study of quantum chromodynamics (QCD) at high energy density.
+Under such extreme conditions, a state consisting of deconfined quarks and gluons, the quark-gluon plasma (QGP)~\cite{QGP1,QGP2}, is predicted by lattice QCD calculations~\cite{Karsch:2003jg}.
+Hard-scattered partons are expected to lose energy via elastic collisions and medium-induced gluon radiation as they traverse the QGP. This phenomenon, known as jet quenching~\cite{Eloss1,Baier:2000mf,Chatrchyan:2011sx,Aad:2010bu}, results in the suppression of the yield of high transverse momentum (\pt) hadrons, compared to the  expectation based on proton-proton (pp) data, in which the outgoing partons traverse the QCD vacuum. Measurements of the jet quenching dependence on the type of initiating parton (both quark \vs gluon and light \vs heavy quarks) are key to constrain the QGP properties~\cite{Dokshitzer:2001zm,Armesto:2003jh,Wicks:2007am,Zhang:2003wk,Adil:2006ra}.
+
+The production of $\PB$~mesons was studied at the Large Hadron Collider (LHC) in \pp collisions at center-of-mass energies of $\sqrts = 7$\TeV~\cite{CMSBmesonpp,Chatrchyan:2011pw,Chatrchyan:2011vh,ATLAS:2013cia,LHCb:2013JHEP,Aaij:2014hla,Aaij:2012dd}, 8\TeV~\cite{Aaij:2015fea,Aaij:2014ija} and 13\TeV~\cite{Khachatryan:2016csy} over wide \pt and rapidity ($y$) intervals, and in proton-lead ($\pPb$) collisions at a center-of-mass energy per nucleon pair $\sqrtsNN = 5.02$\TeV~\cite{Khachatryan:2015uja}.
+The CMS Collaboration also measured the nonprompt (\ie from decays of $\PQb$ hadrons) $\PJGy$ meson production in lead-lead ($\PbPb$) and \pp collisions at $\sqrtsNN = 2.76$\TeV~\cite{CMSNonPromptJpsi}. For nonprompt $\PJGy$, a strong suppression was observed in the nuclear modification factor \RAA, the ratio of the nonprompt \PJGy cross section in \PbPb collisions with respect to that in \pp collisions scaled by the number of binary nucleon-nucleon (NN) collisions. In this Letter, we extend the study of heavy-quark production by performing the first measurement of exclusive $\PBpm$ mesons decays in $\PbPb$ collisions. This provides direct information about the b hadron kinematics and flavor content, compared to the measurements of nonprompt $\PJGy$, which are decay products of various beauty mesons and baryons.
+
+The $\PBpm$ mesons are measured in the interval $\abs{y}<2.4$ and in five \pt bins ($[7,10]$, $[10,15]$, $[15,20]$, $[20,30]$, $[30,50]$\GeVc), via the reconstruction of the decay channels \Bplusminusdecay, which have the branching fraction $\mathcal{B} = (6.12 \pm 0.19) \times 10^{-5}$~\cite{pdg:2016}. Throughout the paper, unless otherwise specified, the $y$ and \pt variables given are those of the $\PBpm$ mesons. This analysis does not distinguish between the charge conjugates.
+
+\begin{acknowledgments}
+We congratulate our colleagues in the CERN accelerator departments for the excellent performance of the LHC and thank the technical and administrative staffs at CERN and at other CMS institutes for their contributions to the success of the CMS effort. In addition, we gratefully acknowledge the computing centers and personnel of the Worldwide LHC Computing Grid for delivering so effectively the computing infrastructure essential to our analyses. Finally, we acknowledge the enduring support for the construction and operation of the LHC and the CMS detector provided by the following funding agencies: BMWFW and FWF (Austria); FNRS and FWO (Belgium); CNPq, CAPES, FAPERJ, and FAPESP (Brazil); MES (Bulgaria); CERN; CAS, MoST, and NSFC (China); COLCIENCIAS (Colombia); MSES and CSF (Croatia); RPF (Cyprus); SENESCYT (Ecuador); MoER, ERC IUT, and ERDF (Estonia); Academy of Finland, MEC, and HIP (Finland); CEA and CNRS/IN2P3 (France); BMBF, DFG, and HGF (Germany); GSRT (Greece); OTKA and NIH (Hungary); DAE and DST (India); IPM (Iran); SFI (Ireland); INFN (Italy); MSIP and NRF (Republic of Korea); LAS (Lithuania); MOE and UM (Malaysia); BUAP, CINVESTAV, CONACYT, LNS, SEP, and UASLP-FAI (Mexico); MBIE (New Zealand); PAEC (Pakistan); MSHE and NSC (Poland); FCT (Portugal); JINR (Dubna); MON, RosAtom, RAS, RFBR and RAEP (Russia); MESTD (Serbia); SEIDI, CPAN, PCTI and FEDER (Spain); Swiss Funding Agencies (Switzerland); MST (Taipei); ThEPCenter, IPST, STAR, and NSTDA (Thailand); TUBITAK and TAEK (Turkey); NASU and SFFR (Ukraine); STFC (United Kingdom); DOE and NSF (USA).
+\end{acknowledgments}
+
+\bibliography{auto_generated}
+
+
+
