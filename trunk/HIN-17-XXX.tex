@@ -37,7 +37,7 @@ as a function of transverse momentum in \pp and \PbPb collisions at a center-of-
 The \pp (\PbPb) dataset used for this analysis corresponds to an integrated luminosity of 28.0\pbinv (351\mubinv).
 The measurement is performed in the $\PBzeros$ meson transverse momentum range of 15 to 50\GeVc, in the rapidity interval $\abs{y}<2.4$. 
 In this kinematic range, a strong suppression of the production cross section of $\PBzeros$ mesons by about a factor of two is observed in the \PbPb system in comparison 
-to the expectation from \pp reference data. This result is found to be compatible with the one measured for the $\PBpm$ mesons at the same energy and rapidity. 
+to the expectation from \pp reference data. This result is found to be compatible with the one measured for the $\PBzeros$ mesons at the same energy and rapidity. 
 }
 
 \hypersetup{%
@@ -88,6 +88,20 @@ three towers in each of the HF detectors with energy deposits of more than 3\GeV
 than 100\% are possible, reflecting the possible presence of ultra-peripheral (i.e. nonhadronic) collisions in the selected event sample. The \PbPb sample corresponds to an integrated luminosity of approximately 351\mubinv. 
 This value is indicative only, as the \PbPb yield is normalized by the total number of minimum-bias events sampled, $N_{\text{MB}}$. The \pp data set corresponds to an integrated luminosity of 28.0\pbinv, which is known to an accuracy of 2.3\% from the uncertainty in the calibration based on a van der Meer scan~\cite{CMS-PAS-LUM-16-001}.
 
+Kinematic limits are imposed on the single muons so that their reconstruction efficiency stays above 10\%. These limits are $\pt^{\mu}>3.5\GeVc\enspace \text{ for } \abs{\eta^{\mu}}<1.2$, $\pt^{\mu}>1.8\GeVc\text{ for }2.1\le\abs{\eta^{\mu}}<2.4$, 
+and linearly interpolated in the intermediate $\abs{\eta^{\mu}}$ region. The muons are also required to match the muons that triggered the event online, and pass selection criteria optimized 
+for low \pt (the so-called \textit{soft selection}~\cite{Chatrchyan:2012xi}). Two muons of opposite charge with an invariant mass within $150\MeVcc$ of the world-average $\PJGy$ meson 
+mass~\cite{pdg:2016} are selected to reconstruct a $\PJGy$ candidate, with a mass resolution of typically 18--55\MeVcc, degrading as a function of the dimuon rapidity and \pt. 
+Opposite-sign muon pairs are fitted with a common vertex constraint and are kept if the $\chi^2$ probability of the fit is greater than 1\%, lowering the background from charm- and beauty-hadron 
+semileptonic decays. Each $\PB$~meson candidate is formed from the combination of a $\PJGy$ candidate with a charged-particle track, which are required to pass standard selections 
+described in Ref.~\cite{Khachatryan:2016odn}. Without using particle identification, assumptions need to be made about the masses of the charged particles. In calculating the mass of 
+the $\PBzeros$ candidates, the single charged particle is always assumed to have the mass of a charged kaon, and the muon pair is assumed to have the mass of a $\PJGy$ meson.
+A single-track low-$\pt$ threshold of 0.5\GeVc for \pp collisions and 0.8\GeVc for \PbPb collisions is applied to reduce the combinatorial background, which is further minimized by additional selection criteria.
+In particular, $\PBzeros$ candidates are selected according to the $\chi^{2}$ probability of their decay vertex (the probability for the muon tracks from the $\PJGy$ meson decay and the 
+other charged track to point to a common vertex), the three-dimensional (3D) flight distance (normalized by its uncertainty) between the primary and decay vertices, and the pointing angle, 
+which is defined as the angle between the line segment connecting the primary and decay vertices and the momentum vector of the $\PBzeros$ meson in the plane transverse to 
+the beam direction. The selection is optimized in each \pt bin, separately for \pp and \PbPb results, using a multivariate technique that utilizes the genetics algorithm~\cite{Hocker:2007ht}, 
+in order to maximize the statistical significance of the $\PBzeros$ mesons signal. 
 
 \begin{figure*}[tb]
 \centering
